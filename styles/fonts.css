@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Pop-SB";
+    src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Int-B";
+    src: url(../assets/fonts/Inter/static/Inter-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Int-M";
+    src: url(../assets/fonts/Inter/static/Inter-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}

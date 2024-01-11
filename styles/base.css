@@ -1,0 +1,9 @@
+html {
+    background: #F9F9F9;
+}
+
+.container {
+    width: 1246px;
+    display: flex;
+    margin: 0 auto;
+}
