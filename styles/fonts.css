@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: "Pop-M";
+    src: url(../assets/fonts/Poppins/Poppins-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
     font-family: "Int-B";
     src: url(../assets/fonts/Inter/static/Inter-Bold.ttf);
     font-style: normal;
@@ -17,4 +24,18 @@
     src: url(../assets/fonts/Inter/static/Inter-Medium.ttf);
     font-style: normal;
     font-weight: 500;
+}
+
+@font-face {
+    font-family: "Int-R";
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Jak-SB";
+    src: url(../assets/fonts/PlusJakartaSans-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
 }

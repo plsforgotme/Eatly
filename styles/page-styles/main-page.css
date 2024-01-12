@@ -1,0 +1,150 @@
+.main {
+
+    .main-hero-container {
+        display: flex;
+        column-gap: 73px;
+        margin-top: 79px;
+        position: relative;
+
+        .mh-info {
+
+            .mh-span {
+                color: rgba(32, 31, 31, 0.20);
+                font-family: "Pop-SB", sans-serif;
+                font-size: 15px;
+            }
+
+            .mh-phrase {
+                font-family: "Pop-SB", sans-serif;
+                font-size: 75px;
+                letter-spacing: -3px;
+                color: #201F1F;
+
+                .mh-highlighted {
+                    color: #5C4EAE;
+                }
+            }
+
+            .mh-option {
+                margin-top: 16px;
+                margin-bottom: 53px;
+                font-size: 18px;
+                width: 499px;
+                color: #676767;
+                text-align: justify;
+                font-family: "Int-R", sans-serif;
+            }
+
+            .mh-buttons {
+                display: flex;
+                column-gap: 18px;
+                font-family: "Int-M", sans-serif;
+                font-size: 16px;
+                letter-spacing: 0.163px;
+                margin-bottom: 33px;
+
+                .mh-button__primary {
+                    color: #fff;
+                    padding: 18px 30px;
+                    background: #6C5FBC;
+                    border-radius: 12.412px;
+                }
+
+                .mh-button__secondary {
+                    color: #6C5FBC;
+                    padding: 18px 28px;
+                    border: 1.7px solid #6C5FBC;
+                    border-radius: 12.412px;
+                }
+            }
+
+            .mh-feedback {
+                display: flex;
+                align-items: center;
+                column-gap: 7px;
+
+                .mh-feedback__brand {
+                    display: flex;
+                    column-gap: 3px;
+                    align-items: center;
+
+                    .mh-feedback__brand-name {
+                        font-family: "Int-M", sans-serif;
+                        font-size: 18px;
+                    }
+                }
+
+                .mh-feedback__count {
+                    font-size: 16px;
+                    font-family: "Jak-SB", sans-serif;
+                    opacity: 0.7;
+                    color: rgb(51, 65, 85);
+                }
+            }
+        }
+
+        .mh-photo {
+            width: 603px;
+            height: 540px;
+            position: relative;
+            display: flex;
+            align-items: start;
+            justify-content: end;
+            color: #323142;
+            font-size: 9.844px;
+            margin-bottom: 120px;
+
+            .mh-photo__dish {
+                border-radius: 16.406px;
+                background: #fff;
+                display: flex;
+                align-items: center;
+
+                .mh-photo__dish-image {
+                    margin: 4px 18px 4px 16px;
+                }
+
+                .mh-photo__dish-text {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 5px;
+                    font-family: "Pop-M", sans-serif;
+                    margin-right: 106px;
+
+                    .mh-photo__dish-name {
+                        font-family: "Pop-SB", sans-serif;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .mh-plate, .mh-eclipse, .mh-arrow {
+                position: absolute;
+            }
+
+            .mh-plate {
+                z-index: -1;
+                top: 69px;
+                left: 75px;
+            }
+
+            .mh-eclipse {
+                z-index: -2;
+                left: 102px;
+                top: 58px;
+            }
+
+            .mh-arrow {
+                top: 113px;
+                right: 23px;
+                z-index: -3;
+            }
+        }
+    }
+}
+
+.mh-waves {
+    position: absolute;
+    top: 184px;
+    right: 25px;
+}
