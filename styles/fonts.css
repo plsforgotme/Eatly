@@ -1,4 +1,11 @@
 @font-face {
+    font-family: "Pop-EB";
+    src: url(../assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
     font-family: "Pop-SB";
     src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
     font-style: normal;
@@ -38,4 +45,11 @@
     src: url(../assets/fonts/PlusJakartaSans-SemiBold.ttf);
     font-style: normal;
     font-weight: 600;
+}
+
+@font-face {
+    font-family: "PS-B";
+    src: url(../assets/fonts/Public-Sans/static/PublicSans-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
 }
