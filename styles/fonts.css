@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: "Pop-B";
+    src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
     font-family: "Pop-SB";
     src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
     font-style: normal;
@@ -52,4 +59,11 @@
     src: url(../assets/fonts/Public-Sans/static/PublicSans-Bold.ttf);
     font-style: normal;
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "Man-R";
+    src: url(../assets/fonts/Manrope/Manrope-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
 }
