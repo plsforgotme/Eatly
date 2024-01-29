@@ -7,3 +7,27 @@ html {
     display: flex;
     margin: 0 auto;
 }
+
+.status {
+    font-family: "Pop-R", sans-serif;
+    font-size: 12.776px;
+    padding: 3px 8px;
+    margin-top: 11px; 
+    font-feature-settings: 'clig' off, 'liga' off;
+    border-radius: 5.4px;
+}
+
+.healthy-status {
+    color: rgba(218, 163, 26, 1);
+    background: #F7EDD0;
+}
+
+.trending-status {
+    color: rgba(251, 71, 29, 1);
+    background: rgba(247, 197, 186, 1);
+}
+
+.supreme-status {
+    color: rgba(48, 157, 91, 1);
+    background: rgba(51, 172, 100, 0.2);
+}

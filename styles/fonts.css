@@ -62,6 +62,13 @@
 }
 
 @font-face {
+    font-family: "Man-B";
+    src: url(../assets/fonts/Manrope/Manrope-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
     font-family: "Man-R";
     src: url(../assets/fonts/Manrope/Manrope-Regular.ttf);
     font-style: normal;

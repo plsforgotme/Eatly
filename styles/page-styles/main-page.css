@@ -335,25 +335,6 @@
                     align-items: start;
                     padding-bottom: 18px;
 
-                    .restraunt-status {
-                        font-family: "Pop-R", sans-serif;
-                        font-size: 12.776px;
-                        padding: 3px 8px;
-                        margin-top: 11px; 
-                        font-feature-settings: 'clig' off, 'liga' off;
-                        border-radius: 5.4px;
-                    }
-
-                    .healthy-status {
-                        color: rgba(218, 163, 26, 1);
-                        background: #F7EDD0;
-                    }
-
-                    .trending-status {
-                        color: rgba(251, 71, 29, 1);
-                        background: rgba(247, 197, 186, 1);
-                    }
-
                     .restraunt-cell__name {
                         font-family: "Pop-SB", sans-serif;
                         color: rgba(50, 49, 66, 1);
@@ -366,6 +347,80 @@
                         align-items: center;
                         font-family: "Man-R", sans-serif;
                         color: rgba(142, 151, 166, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.dishes {
+
+    .dishes-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 232px;
+        border-bottom: 1px solid rgba(203, 203, 203, 1);
+        margin-bottom: 100px;
+
+        .dishes-heading {
+            font-family: "Pop-SB", sans-serif;
+            font-size: 45px;
+            padding-bottom: 75px;
+        }
+
+        .dishes-main {  
+            width: 1246px;
+            display: flex;
+            justify-content: space-between;
+
+            .dishes-cell {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                background: rgba(255, 255, 255, 1);
+                padding: 26px 17px 30px 23px;
+                border-radius: 34.581px;
+                box-shadow: 6.848px 82.181px 41.091px 0px rgba(229, 229, 229, 0.70);
+                align-items: start;
+
+                .dishes-cell__heading {
+                    font-family: "Pop-SB", sans-serif;
+                }
+
+                .dishes-cell__rating {
+                    display: flex;
+                    padding-top: 2px;
+                    align-items: center;
+                    font-family: "Man-R", sans-serif;
+                    color: rgba(142, 151, 166, 1);
+                }
+
+                .dishes-cell__bottom {
+                    display: flex;
+                    column-gap: 62px;
+                    align-items: end;
+
+                    .dishes-cell__price {
+                        font-family: "Man-B", sans-serif;
+                        font-size: 25.936px;
+                        color: rgba(50, 49, 66, 1);
+
+                        .dishes-cell__smallprice {
+                            color: rgba(142, 151, 166, 1);
+                            font-size: 18.806px;
+                        }
+                    }
+
+                    .dishes-cell__add-button {
+                        border-radius: 9px;
+                        font-size: 15px;
+                        padding: 12px 17px;
+                        color: white;
+                        background: rgba(50, 49, 66, 1);
                     }
                 }
             }
